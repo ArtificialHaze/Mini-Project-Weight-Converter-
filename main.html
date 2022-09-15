@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keywords" content="HTML,CSS,Javascript" />
+    <meta name="author" content="vakho" />
+    <link rel="stylesheet" href="./main.css" />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/js/all.min.js"
+      integrity="sha512-8pHNiqTlsrRjVD4A/3va++W1sMbUHwWxxRPWNyVlql3T+Hgfd81Qc6FC5WMXDC+tSauxxzp1tgiAvSKFu1qIlA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"
+      integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.1/css/bootstrap.min.css"
+      integrity="sha512-siwe/oXMhSjGCwLn+scraPOWrJxHlUgMBMZXdPe2Tnk3I0x3ESCoLz7WZ5NTH6SZrywMY+PB1cjyqJ5jAluCOg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Main Page</title>
+  </head>
+  <body>
+    <!-- CONTAINER -->
+    <div class="container">
+      <div class="row d-flex justify-content-center mt-5">
+        <div class="col-md-6">
+          <h1 class="text-center fw-bolder display-3 bg-dark text-light py-3">
+            WEIGHT CONVERTER
+          </h1>
+          <hr />
+          <!-- FORM -->
+          <form action="#">
+            <p class="alert alert-info">
+              Type a vlaue in any of the fields to convert weight.
+            </p>
+            <div class="mb-3">
+              <label for="kilograms" class="form-label"
+                >Weight in kilograms:
+              </label>
+              <input
+                type="number"
+                id="kilograms"
+                placeholder="In kilograms.."
+                class="form-control form-control-lg kilograms"
+              />
+            </div>
+            <div class="mb-3">
+              <label for="pounds" class="form-label">Weight in pounds: </label>
+              <input
+                type="number"
+                id="pounds"
+                placeholder="In pounds.."
+                class="form-control form-control-lg pounds"
+              />
+            </div>
+            <div class="mb-3">
+              <label for="grams" class="form-label">Weight in grams: </label>
+              <input
+                type="number"
+                id="grams"
+                class="form-control form-control-lg grams"
+                placeholder="In grams.."
+              />
+            </div>
+            <div class="mb-3">
+              <label for="ounces" class="form-label">Weight in ounces: </label>
+              <input
+                type="number"
+                id="ounces"
+                class="form-control form-control-lg ounces"
+                placeholder="In ounces.."
+              />
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script defer src="./main.js"></script>
+</html>

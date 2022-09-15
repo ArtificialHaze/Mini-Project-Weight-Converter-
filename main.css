@@ -1,0 +1,19 @@
+/* GLOBAL STYLES */
+
+* {
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+  font-family: inherit;
+  background-color: gray;
+}
+
+h1 {
+  border-radius: 15px;
+}
+
+p {
+  text-align: center;
+}
